@@ -39,7 +39,7 @@ src/CMakeFiles/cossdk.dir/cos_api.cpp.o
  .././include/threadpool/boost/threadpool.hpp
  .././include/util/simple_mutex.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/cos_api.cpp
+ /home/yangxj/Program/New/CosPic/src/cos_api.cpp
 src/CMakeFiles/cossdk.dir/cos_config.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -54,7 +54,7 @@ src/CMakeFiles/cossdk.dir/cos_config.cpp.o
  .././include/json/value.h
  .././include/json/version.h
  .././include/json/writer.h
- /home/yangxj/桌面/CosPic/src/cos_config.cpp
+ /home/yangxj/Program/New/CosPic/src/cos_config.cpp
 src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o
  .././include/cos_defines.h
  .././include/cos_sys_config.h
@@ -62,7 +62,7 @@ src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o
  .././include/rapidxml/1.13/rapidxml_print.hpp
  .././include/rapidxml/1.13/rapidxml_utils.hpp
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/cos_sys_config.cpp
+ /home/yangxj/Program/New/CosPic/src/cos_sys_config.cpp
 src/CMakeFiles/cossdk.dir/op/base_op.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -89,7 +89,7 @@ src/CMakeFiles/cossdk.dir/op/base_op.cpp.o
  .././include/util/http_sender.h
  .././include/util/noncopyable.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/base_op.cpp
+ /home/yangxj/Program/New/CosPic/src/op/base_op.cpp
 src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -116,7 +116,7 @@ src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o
  .././include/response/bucket_resp.h
  .././include/util/codec_util.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/bucket_op.cpp
+ /home/yangxj/Program/New/CosPic/src/op/bucket_op.cpp
 src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o
  .././include/cos_defines.h
  .././include/cos_params.h
@@ -126,7 +126,7 @@ src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o
  .././include/rapidxml/1.13/rapidxml_print.hpp
  .././include/rapidxml/1.13/rapidxml_utils.hpp
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/cos_result.cpp
+ /home/yangxj/Program/New/CosPic/src/op/cos_result.cpp
 src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -157,7 +157,7 @@ src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o
  .././include/util/file_util.h
  .././include/util/http_sender.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/file_copy_task.cpp
+ /home/yangxj/Program/New/CosPic/src/op/file_copy_task.cpp
 src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -185,7 +185,7 @@ src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o
  .././include/util/file_util.h
  .././include/util/http_sender.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/file_download_task.cpp
+ /home/yangxj/Program/New/CosPic/src/op/file_download_task.cpp
 src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -213,7 +213,7 @@ src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o
  .././include/util/file_util.h
  .././include/util/http_sender.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/file_upload_task.cpp
+ /home/yangxj/Program/New/CosPic/src/op/file_upload_task.cpp
 src/CMakeFiles/cossdk.dir/op/object_op.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -262,7 +262,7 @@ src/CMakeFiles/cossdk.dir/op/object_op.cpp.o
  .././include/util/http_sender.h
  .././include/util/noncopyable.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/object_op.cpp
+ /home/yangxj/Program/New/CosPic/src/op/object_op.cpp
 src/CMakeFiles/cossdk.dir/op/service_op.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -289,7 +289,7 @@ src/CMakeFiles/cossdk.dir/op/service_op.cpp.o
  .././include/response/service_resp.h
  .././include/util/codec_util.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/op/service_op.cpp
+ /home/yangxj/Program/New/CosPic/src/op/service_op.cpp
 src/CMakeFiles/cossdk.dir/request/base_req.cpp.o
  .././include/cos_defines.h
  .././include/cos_sys_config.h
@@ -298,7 +298,7 @@ src/CMakeFiles/cossdk.dir/request/base_req.cpp.o
  .././include/rapidxml/1.13/rapidxml_utils.hpp
  .././include/request/base_req.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/request/base_req.cpp
+ /home/yangxj/Program/New/CosPic/src/request/base_req.cpp
 src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o
  .././include/cos_defines.h
  .././include/cos_sys_config.h
@@ -308,7 +308,7 @@ src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o
  .././include/request/base_req.h
  .././include/request/bucket_req.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/request/bucket_req.cpp
+ /home/yangxj/Program/New/CosPic/src/request/bucket_req.cpp
 src/CMakeFiles/cossdk.dir/request/object_req.cpp.o
  .././include/cos_defines.h
  .././include/cos_sys_config.h
@@ -318,7 +318,7 @@ src/CMakeFiles/cossdk.dir/request/object_req.cpp.o
  .././include/request/base_req.h
  .././include/request/object_req.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/request/object_req.cpp
+ /home/yangxj/Program/New/CosPic/src/request/object_req.cpp
 src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o
  .././include/cos_defines.h
  .././include/cos_params.h
@@ -328,7 +328,7 @@ src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o
  .././include/rapidxml/1.13/rapidxml_utils.hpp
  .././include/response/base_resp.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/response/base_resp.cpp
+ /home/yangxj/Program/New/CosPic/src/response/base_resp.cpp
 src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -340,7 +340,7 @@ src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o
  .././include/response/base_resp.h
  .././include/response/bucket_resp.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/response/bucket_resp.cpp
+ /home/yangxj/Program/New/CosPic/src/response/bucket_resp.cpp
 src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -352,7 +352,7 @@ src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o
  .././include/response/base_resp.h
  .././include/response/object_resp.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/response/object_resp.cpp
+ /home/yangxj/Program/New/CosPic/src/response/object_resp.cpp
 src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -364,7 +364,7 @@ src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o
  .././include/response/base_resp.h
  .././include/response/service_resp.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/response/service_resp.cpp
+ /home/yangxj/Program/New/CosPic/src/response/service_resp.cpp
 src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o
  .././include/cos_defines.h
  .././include/cos_sys_config.h
@@ -389,7 +389,7 @@ src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o
  .././include/util/noncopyable.h
  .././include/util/sha1.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/util/auth_tool.cpp
+ /home/yangxj/Program/New/CosPic/src/util/auth_tool.cpp
 src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o
  .././include/json/allocator.h
  .././include/json/autolink.h
@@ -404,7 +404,7 @@ src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o
  .././include/util/codec_util.h
  .././include/util/file_util.h
  .././include/util/sha1.h
- /home/yangxj/桌面/CosPic/src/util/codec_util.cpp
+ /home/yangxj/Program/New/CosPic/src/util/codec_util.cpp
 src/CMakeFiles/cossdk.dir/util/file_util.cpp.o
  .././include/cos_defines.h
  .././include/cos_sys_config.h
@@ -424,7 +424,7 @@ src/CMakeFiles/cossdk.dir/util/file_util.cpp.o
  .././include/util/codec_util.h
  .././include/util/file_util.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/util/file_util.cpp
+ /home/yangxj/Program/New/CosPic/src/util/file_util.cpp
 src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o
  .././include/cos_config.h
  .././include/cos_defines.h
@@ -447,7 +447,7 @@ src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o
  .././include/util/codec_util.h
  .././include/util/http_sender.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/util/http_sender.cpp
+ /home/yangxj/Program/New/CosPic/src/util/http_sender.cpp
 src/CMakeFiles/cossdk.dir/util/sha1.cpp.o
  .././include/cos_defines.h
  .././include/rapidxml/1.13/rapidxml.hpp
@@ -455,11 +455,11 @@ src/CMakeFiles/cossdk.dir/util/sha1.cpp.o
  .././include/rapidxml/1.13/rapidxml_utils.hpp
  .././include/util/sha1.h
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/util/sha1.cpp
+ /home/yangxj/Program/New/CosPic/src/util/sha1.cpp
 src/CMakeFiles/cossdk.dir/util/string_util.cpp.o
  .././include/cos_defines.h
  .././include/rapidxml/1.13/rapidxml.hpp
  .././include/rapidxml/1.13/rapidxml_print.hpp
  .././include/rapidxml/1.13/rapidxml_utils.hpp
  .././include/util/string_util.h
- /home/yangxj/桌面/CosPic/src/util/string_util.cpp
+ /home/yangxj/Program/New/CosPic/src/util/string_util.cpp

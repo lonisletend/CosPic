@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yangxj/桌面/CosPic
+CMAKE_SOURCE_DIR = /home/yangxj/Program/New/CosPic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yangxj/桌面/CosPic/build
+CMAKE_BINARY_DIR = /home/yangxj/Program/New/CosPic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,14 +83,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yangxj/桌面/CosPic/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/桌面/CosPic/build/CMakeFiles /home/yangxj/桌面/CosPic/build/cospic/CMakeFiles/progress.marks
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/桌面/CosPic/build/CMakeFiles 0
+	cd /home/yangxj/Program/New/CosPic/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/Program/New/CosPic/build/CMakeFiles /home/yangxj/Program/New/CosPic/build/cospic/CMakeFiles/progress.marks
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/Program/New/CosPic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/clean
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/clean
 .PHONY : clean
 
 # The main clean target
@@ -100,22 +100,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/preinstall
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/preinstall
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yangxj/桌面/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yangxj/Program/New/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cospic/CMakeFiles/cospic.dir/rule:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/CMakeFiles/cospic.dir/rule
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 cospic/CMakeFiles/cospic.dir/rule
 .PHONY : cospic/CMakeFiles/cospic.dir/rule
 
 # Convenience name for target.
@@ -125,7 +125,7 @@ cospic: cospic/CMakeFiles/cospic.dir/rule
 
 # fast build rule for target.
 cospic/fast:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/build
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/build
 .PHONY : cospic/fast
 
 cospic.o: cospic.cpp.o
@@ -134,7 +134,7 @@ cospic.o: cospic.cpp.o
 
 # target to build an object file
 cospic.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/cospic.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/cospic.cpp.o
 .PHONY : cospic.cpp.o
 
 cospic.i: cospic.cpp.i
@@ -143,7 +143,7 @@ cospic.i: cospic.cpp.i
 
 # target to preprocess a source file
 cospic.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/cospic.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/cospic.cpp.i
 .PHONY : cospic.cpp.i
 
 cospic.s: cospic.cpp.s
@@ -152,7 +152,7 @@ cospic.s: cospic.cpp.s
 
 # target to generate assembly for a file
 cospic.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/cospic.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f cospic/CMakeFiles/cospic.dir/build.make cospic/CMakeFiles/cospic.dir/cospic.cpp.s
 .PHONY : cospic.cpp.s
 
 # Help Target
@@ -178,6 +178,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yangxj/桌面/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yangxj/Program/New/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

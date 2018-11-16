@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -D__COS_DEBUG__
 
-CXX_INCLUDES = -I/home/yangxj/桌面/CosPic/./include -I/usr/local/ssl/include 
+CXX_INCLUDES = -I/home/yangxj/Program/New/CosPic/./include -I/usr/local/ssl/include 
 

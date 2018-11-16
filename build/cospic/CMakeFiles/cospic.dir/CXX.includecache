@@ -324,7 +324,7 @@ rapidxml/1.13/rapidxml_print.hpp
 cos_defines.h
 .././include/util/cos_defines.h
 
-/home/yangxj/桌面/CosPic/cospic/cospic.cpp
+/home/yangxj/Program/New/CosPic/cospic/cospic.cpp
 iostream
 -
 fstream
@@ -338,11 +338,11 @@ vector
 boost/algorithm/string.hpp
 -
 cos_api.h
-/home/yangxj/桌面/CosPic/cospic/cos_api.h
+/home/yangxj/Program/New/CosPic/cospic/cos_api.h
 cos_defines.h
-/home/yangxj/桌面/CosPic/cospic/cos_defines.h
+/home/yangxj/Program/New/CosPic/cospic/cos_defines.h
 cos_sys_config.h
-/home/yangxj/桌面/CosPic/cospic/cos_sys_config.h
+/home/yangxj/Program/New/CosPic/cospic/cos_sys_config.h
 json/json.h
-/home/yangxj/桌面/CosPic/cospic/json/json.h
+/home/yangxj/Program/New/CosPic/cospic/json/json.h
 

@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yangxj/桌面/CosPic
+CMAKE_SOURCE_DIR = /home/yangxj/Program/New/CosPic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yangxj/桌面/CosPic/build
+CMAKE_BINARY_DIR = /home/yangxj/Program/New/CosPic/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/cossdk.dir/depend.make
@@ -62,16 +62,16 @@ include src/CMakeFiles/cossdk.dir/flags.make
 
 src/CMakeFiles/cossdk.dir/cos_api.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/cos_api.cpp.o: ../src/cos_api.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/cossdk.dir/cos_api.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/cos_api.cpp.o -c /home/yangxj/桌面/CosPic/src/cos_api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/cossdk.dir/cos_api.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/cos_api.cpp.o -c /home/yangxj/Program/New/CosPic/src/cos_api.cpp
 
 src/CMakeFiles/cossdk.dir/cos_api.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/cos_api.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/cos_api.cpp > CMakeFiles/cossdk.dir/cos_api.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/cos_api.cpp > CMakeFiles/cossdk.dir/cos_api.cpp.i
 
 src/CMakeFiles/cossdk.dir/cos_api.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/cos_api.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/cos_api.cpp -o CMakeFiles/cossdk.dir/cos_api.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/cos_api.cpp -o CMakeFiles/cossdk.dir/cos_api.cpp.s
 
 src/CMakeFiles/cossdk.dir/cos_api.cpp.o.requires:
 
@@ -86,16 +86,16 @@ src/CMakeFiles/cossdk.dir/cos_api.cpp.o.provides.build: src/CMakeFiles/cossdk.di
 
 src/CMakeFiles/cossdk.dir/cos_config.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/cos_config.cpp.o: ../src/cos_config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/cossdk.dir/cos_config.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/cos_config.cpp.o -c /home/yangxj/桌面/CosPic/src/cos_config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/cossdk.dir/cos_config.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/cos_config.cpp.o -c /home/yangxj/Program/New/CosPic/src/cos_config.cpp
 
 src/CMakeFiles/cossdk.dir/cos_config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/cos_config.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/cos_config.cpp > CMakeFiles/cossdk.dir/cos_config.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/cos_config.cpp > CMakeFiles/cossdk.dir/cos_config.cpp.i
 
 src/CMakeFiles/cossdk.dir/cos_config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/cos_config.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/cos_config.cpp -o CMakeFiles/cossdk.dir/cos_config.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/cos_config.cpp -o CMakeFiles/cossdk.dir/cos_config.cpp.s
 
 src/CMakeFiles/cossdk.dir/cos_config.cpp.o.requires:
 
@@ -110,16 +110,16 @@ src/CMakeFiles/cossdk.dir/cos_config.cpp.o.provides.build: src/CMakeFiles/cossdk
 
 src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o: ../src/cos_sys_config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/cos_sys_config.cpp.o -c /home/yangxj/桌面/CosPic/src/cos_sys_config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/cos_sys_config.cpp.o -c /home/yangxj/Program/New/CosPic/src/cos_sys_config.cpp
 
 src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/cos_sys_config.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/cos_sys_config.cpp > CMakeFiles/cossdk.dir/cos_sys_config.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/cos_sys_config.cpp > CMakeFiles/cossdk.dir/cos_sys_config.cpp.i
 
 src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/cos_sys_config.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/cos_sys_config.cpp -o CMakeFiles/cossdk.dir/cos_sys_config.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/cos_sys_config.cpp -o CMakeFiles/cossdk.dir/cos_sys_config.cpp.s
 
 src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o.requires:
 
@@ -134,16 +134,16 @@ src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o.provides.build: src/CMakeFiles/co
 
 src/CMakeFiles/cossdk.dir/request/base_req.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/request/base_req.cpp.o: ../src/request/base_req.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/cossdk.dir/request/base_req.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/request/base_req.cpp.o -c /home/yangxj/桌面/CosPic/src/request/base_req.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/cossdk.dir/request/base_req.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/request/base_req.cpp.o -c /home/yangxj/Program/New/CosPic/src/request/base_req.cpp
 
 src/CMakeFiles/cossdk.dir/request/base_req.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/request/base_req.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/request/base_req.cpp > CMakeFiles/cossdk.dir/request/base_req.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/request/base_req.cpp > CMakeFiles/cossdk.dir/request/base_req.cpp.i
 
 src/CMakeFiles/cossdk.dir/request/base_req.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/request/base_req.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/request/base_req.cpp -o CMakeFiles/cossdk.dir/request/base_req.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/request/base_req.cpp -o CMakeFiles/cossdk.dir/request/base_req.cpp.s
 
 src/CMakeFiles/cossdk.dir/request/base_req.cpp.o.requires:
 
@@ -158,16 +158,16 @@ src/CMakeFiles/cossdk.dir/request/base_req.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o: ../src/request/bucket_req.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/request/bucket_req.cpp.o -c /home/yangxj/桌面/CosPic/src/request/bucket_req.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/request/bucket_req.cpp.o -c /home/yangxj/Program/New/CosPic/src/request/bucket_req.cpp
 
 src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/request/bucket_req.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/request/bucket_req.cpp > CMakeFiles/cossdk.dir/request/bucket_req.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/request/bucket_req.cpp > CMakeFiles/cossdk.dir/request/bucket_req.cpp.i
 
 src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/request/bucket_req.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/request/bucket_req.cpp -o CMakeFiles/cossdk.dir/request/bucket_req.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/request/bucket_req.cpp -o CMakeFiles/cossdk.dir/request/bucket_req.cpp.s
 
 src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o.requires:
 
@@ -182,16 +182,16 @@ src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/cossdk.dir/request/object_req.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/request/object_req.cpp.o: ../src/request/object_req.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/cossdk.dir/request/object_req.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/request/object_req.cpp.o -c /home/yangxj/桌面/CosPic/src/request/object_req.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/cossdk.dir/request/object_req.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/request/object_req.cpp.o -c /home/yangxj/Program/New/CosPic/src/request/object_req.cpp
 
 src/CMakeFiles/cossdk.dir/request/object_req.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/request/object_req.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/request/object_req.cpp > CMakeFiles/cossdk.dir/request/object_req.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/request/object_req.cpp > CMakeFiles/cossdk.dir/request/object_req.cpp.i
 
 src/CMakeFiles/cossdk.dir/request/object_req.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/request/object_req.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/request/object_req.cpp -o CMakeFiles/cossdk.dir/request/object_req.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/request/object_req.cpp -o CMakeFiles/cossdk.dir/request/object_req.cpp.s
 
 src/CMakeFiles/cossdk.dir/request/object_req.cpp.o.requires:
 
@@ -206,16 +206,16 @@ src/CMakeFiles/cossdk.dir/request/object_req.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o: ../src/response/base_resp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/base_resp.cpp.o -c /home/yangxj/桌面/CosPic/src/response/base_resp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/base_resp.cpp.o -c /home/yangxj/Program/New/CosPic/src/response/base_resp.cpp
 
 src/CMakeFiles/cossdk.dir/response/base_resp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/response/base_resp.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/response/base_resp.cpp > CMakeFiles/cossdk.dir/response/base_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/response/base_resp.cpp > CMakeFiles/cossdk.dir/response/base_resp.cpp.i
 
 src/CMakeFiles/cossdk.dir/response/base_resp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/response/base_resp.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/response/base_resp.cpp -o CMakeFiles/cossdk.dir/response/base_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/response/base_resp.cpp -o CMakeFiles/cossdk.dir/response/base_resp.cpp.s
 
 src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o.requires:
 
@@ -230,16 +230,16 @@ src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o: ../src/response/object_resp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/object_resp.cpp.o -c /home/yangxj/桌面/CosPic/src/response/object_resp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/object_resp.cpp.o -c /home/yangxj/Program/New/CosPic/src/response/object_resp.cpp
 
 src/CMakeFiles/cossdk.dir/response/object_resp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/response/object_resp.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/response/object_resp.cpp > CMakeFiles/cossdk.dir/response/object_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/response/object_resp.cpp > CMakeFiles/cossdk.dir/response/object_resp.cpp.i
 
 src/CMakeFiles/cossdk.dir/response/object_resp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/response/object_resp.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/response/object_resp.cpp -o CMakeFiles/cossdk.dir/response/object_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/response/object_resp.cpp -o CMakeFiles/cossdk.dir/response/object_resp.cpp.s
 
 src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o.requires:
 
@@ -254,16 +254,16 @@ src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o: ../src/response/bucket_resp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o -c /home/yangxj/桌面/CosPic/src/response/bucket_resp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o -c /home/yangxj/Program/New/CosPic/src/response/bucket_resp.cpp
 
 src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/response/bucket_resp.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/response/bucket_resp.cpp > CMakeFiles/cossdk.dir/response/bucket_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/response/bucket_resp.cpp > CMakeFiles/cossdk.dir/response/bucket_resp.cpp.i
 
 src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/response/bucket_resp.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/response/bucket_resp.cpp -o CMakeFiles/cossdk.dir/response/bucket_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/response/bucket_resp.cpp -o CMakeFiles/cossdk.dir/response/bucket_resp.cpp.s
 
 src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o.requires:
 
@@ -278,16 +278,16 @@ src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o: ../src/response/service_resp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/service_resp.cpp.o -c /home/yangxj/桌面/CosPic/src/response/service_resp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/response/service_resp.cpp.o -c /home/yangxj/Program/New/CosPic/src/response/service_resp.cpp
 
 src/CMakeFiles/cossdk.dir/response/service_resp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/response/service_resp.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/response/service_resp.cpp > CMakeFiles/cossdk.dir/response/service_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/response/service_resp.cpp > CMakeFiles/cossdk.dir/response/service_resp.cpp.i
 
 src/CMakeFiles/cossdk.dir/response/service_resp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/response/service_resp.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/response/service_resp.cpp -o CMakeFiles/cossdk.dir/response/service_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/response/service_resp.cpp -o CMakeFiles/cossdk.dir/response/service_resp.cpp.s
 
 src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o.requires:
 
@@ -302,16 +302,16 @@ src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o: ../src/op/file_copy_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o -c /home/yangxj/桌面/CosPic/src/op/file_copy_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/file_copy_task.cpp
 
 src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/file_copy_task.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/file_copy_task.cpp > CMakeFiles/cossdk.dir/op/file_copy_task.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/file_copy_task.cpp > CMakeFiles/cossdk.dir/op/file_copy_task.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/file_copy_task.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/file_copy_task.cpp -o CMakeFiles/cossdk.dir/op/file_copy_task.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/file_copy_task.cpp -o CMakeFiles/cossdk.dir/op/file_copy_task.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o.requires:
 
@@ -326,16 +326,16 @@ src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o: ../src/op/file_download_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/file_download_task.cpp.o -c /home/yangxj/桌面/CosPic/src/op/file_download_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/file_download_task.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/file_download_task.cpp
 
 src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/file_download_task.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/file_download_task.cpp > CMakeFiles/cossdk.dir/op/file_download_task.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/file_download_task.cpp > CMakeFiles/cossdk.dir/op/file_download_task.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/file_download_task.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/file_download_task.cpp -o CMakeFiles/cossdk.dir/op/file_download_task.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/file_download_task.cpp -o CMakeFiles/cossdk.dir/op/file_download_task.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o.requires:
 
@@ -350,16 +350,16 @@ src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o: ../src/op/file_upload_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o -c /home/yangxj/桌面/CosPic/src/op/file_upload_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/file_upload_task.cpp
 
 src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/file_upload_task.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/file_upload_task.cpp > CMakeFiles/cossdk.dir/op/file_upload_task.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/file_upload_task.cpp > CMakeFiles/cossdk.dir/op/file_upload_task.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/file_upload_task.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/file_upload_task.cpp -o CMakeFiles/cossdk.dir/op/file_upload_task.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/file_upload_task.cpp -o CMakeFiles/cossdk.dir/op/file_upload_task.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o.requires:
 
@@ -374,16 +374,16 @@ src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/cossdk.dir/op/base_op.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/base_op.cpp.o: ../src/op/base_op.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/cossdk.dir/op/base_op.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/base_op.cpp.o -c /home/yangxj/桌面/CosPic/src/op/base_op.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/cossdk.dir/op/base_op.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/base_op.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/base_op.cpp
 
 src/CMakeFiles/cossdk.dir/op/base_op.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/base_op.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/base_op.cpp > CMakeFiles/cossdk.dir/op/base_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/base_op.cpp > CMakeFiles/cossdk.dir/op/base_op.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/base_op.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/base_op.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/base_op.cpp -o CMakeFiles/cossdk.dir/op/base_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/base_op.cpp -o CMakeFiles/cossdk.dir/op/base_op.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/base_op.cpp.o.requires:
 
@@ -398,16 +398,16 @@ src/CMakeFiles/cossdk.dir/op/base_op.cpp.o.provides.build: src/CMakeFiles/cossdk
 
 src/CMakeFiles/cossdk.dir/op/object_op.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/object_op.cpp.o: ../src/op/object_op.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/cossdk.dir/op/object_op.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/object_op.cpp.o -c /home/yangxj/桌面/CosPic/src/op/object_op.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/cossdk.dir/op/object_op.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/object_op.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/object_op.cpp
 
 src/CMakeFiles/cossdk.dir/op/object_op.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/object_op.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/object_op.cpp > CMakeFiles/cossdk.dir/op/object_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/object_op.cpp > CMakeFiles/cossdk.dir/op/object_op.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/object_op.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/object_op.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/object_op.cpp -o CMakeFiles/cossdk.dir/op/object_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/object_op.cpp -o CMakeFiles/cossdk.dir/op/object_op.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/object_op.cpp.o.requires:
 
@@ -422,16 +422,16 @@ src/CMakeFiles/cossdk.dir/op/object_op.cpp.o.provides.build: src/CMakeFiles/coss
 
 src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o: ../src/op/bucket_op.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/bucket_op.cpp.o -c /home/yangxj/桌面/CosPic/src/op/bucket_op.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/bucket_op.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/bucket_op.cpp
 
 src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/bucket_op.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/bucket_op.cpp > CMakeFiles/cossdk.dir/op/bucket_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/bucket_op.cpp > CMakeFiles/cossdk.dir/op/bucket_op.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/bucket_op.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/bucket_op.cpp -o CMakeFiles/cossdk.dir/op/bucket_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/bucket_op.cpp -o CMakeFiles/cossdk.dir/op/bucket_op.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o.requires:
 
@@ -446,16 +446,16 @@ src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o.provides.build: src/CMakeFiles/coss
 
 src/CMakeFiles/cossdk.dir/op/service_op.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/service_op.cpp.o: ../src/op/service_op.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/cossdk.dir/op/service_op.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/service_op.cpp.o -c /home/yangxj/桌面/CosPic/src/op/service_op.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/cossdk.dir/op/service_op.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/service_op.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/service_op.cpp
 
 src/CMakeFiles/cossdk.dir/op/service_op.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/service_op.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/service_op.cpp > CMakeFiles/cossdk.dir/op/service_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/service_op.cpp > CMakeFiles/cossdk.dir/op/service_op.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/service_op.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/service_op.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/service_op.cpp -o CMakeFiles/cossdk.dir/op/service_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/service_op.cpp -o CMakeFiles/cossdk.dir/op/service_op.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/service_op.cpp.o.requires:
 
@@ -470,16 +470,16 @@ src/CMakeFiles/cossdk.dir/op/service_op.cpp.o.provides.build: src/CMakeFiles/cos
 
 src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o: ../src/op/cos_result.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/cos_result.cpp.o -c /home/yangxj/桌面/CosPic/src/op/cos_result.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/op/cos_result.cpp.o -c /home/yangxj/Program/New/CosPic/src/op/cos_result.cpp
 
 src/CMakeFiles/cossdk.dir/op/cos_result.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/op/cos_result.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/op/cos_result.cpp > CMakeFiles/cossdk.dir/op/cos_result.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/op/cos_result.cpp > CMakeFiles/cossdk.dir/op/cos_result.cpp.i
 
 src/CMakeFiles/cossdk.dir/op/cos_result.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/op/cos_result.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/op/cos_result.cpp -o CMakeFiles/cossdk.dir/op/cos_result.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/op/cos_result.cpp -o CMakeFiles/cossdk.dir/op/cos_result.cpp.s
 
 src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o.requires:
 
@@ -494,16 +494,16 @@ src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o.provides.build: src/CMakeFiles/cos
 
 src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o: ../src/util/auth_tool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/auth_tool.cpp.o -c /home/yangxj/桌面/CosPic/src/util/auth_tool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/auth_tool.cpp.o -c /home/yangxj/Program/New/CosPic/src/util/auth_tool.cpp
 
 src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/util/auth_tool.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/util/auth_tool.cpp > CMakeFiles/cossdk.dir/util/auth_tool.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/util/auth_tool.cpp > CMakeFiles/cossdk.dir/util/auth_tool.cpp.i
 
 src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/util/auth_tool.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/util/auth_tool.cpp -o CMakeFiles/cossdk.dir/util/auth_tool.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/util/auth_tool.cpp -o CMakeFiles/cossdk.dir/util/auth_tool.cpp.s
 
 src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o.requires:
 
@@ -518,16 +518,16 @@ src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o.provides.build: src/CMakeFiles/co
 
 src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o: ../src/util/codec_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/codec_util.cpp.o -c /home/yangxj/桌面/CosPic/src/util/codec_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/codec_util.cpp.o -c /home/yangxj/Program/New/CosPic/src/util/codec_util.cpp
 
 src/CMakeFiles/cossdk.dir/util/codec_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/util/codec_util.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/util/codec_util.cpp > CMakeFiles/cossdk.dir/util/codec_util.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/util/codec_util.cpp > CMakeFiles/cossdk.dir/util/codec_util.cpp.i
 
 src/CMakeFiles/cossdk.dir/util/codec_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/util/codec_util.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/util/codec_util.cpp -o CMakeFiles/cossdk.dir/util/codec_util.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/util/codec_util.cpp -o CMakeFiles/cossdk.dir/util/codec_util.cpp.s
 
 src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o.requires:
 
@@ -542,16 +542,16 @@ src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o.provides.build: src/CMakeFiles/c
 
 src/CMakeFiles/cossdk.dir/util/file_util.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/util/file_util.cpp.o: ../src/util/file_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/cossdk.dir/util/file_util.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/file_util.cpp.o -c /home/yangxj/桌面/CosPic/src/util/file_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/cossdk.dir/util/file_util.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/file_util.cpp.o -c /home/yangxj/Program/New/CosPic/src/util/file_util.cpp
 
 src/CMakeFiles/cossdk.dir/util/file_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/util/file_util.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/util/file_util.cpp > CMakeFiles/cossdk.dir/util/file_util.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/util/file_util.cpp > CMakeFiles/cossdk.dir/util/file_util.cpp.i
 
 src/CMakeFiles/cossdk.dir/util/file_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/util/file_util.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/util/file_util.cpp -o CMakeFiles/cossdk.dir/util/file_util.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/util/file_util.cpp -o CMakeFiles/cossdk.dir/util/file_util.cpp.s
 
 src/CMakeFiles/cossdk.dir/util/file_util.cpp.o.requires:
 
@@ -566,16 +566,16 @@ src/CMakeFiles/cossdk.dir/util/file_util.cpp.o.provides.build: src/CMakeFiles/co
 
 src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o: ../src/util/http_sender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/http_sender.cpp.o -c /home/yangxj/桌面/CosPic/src/util/http_sender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/http_sender.cpp.o -c /home/yangxj/Program/New/CosPic/src/util/http_sender.cpp
 
 src/CMakeFiles/cossdk.dir/util/http_sender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/util/http_sender.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/util/http_sender.cpp > CMakeFiles/cossdk.dir/util/http_sender.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/util/http_sender.cpp > CMakeFiles/cossdk.dir/util/http_sender.cpp.i
 
 src/CMakeFiles/cossdk.dir/util/http_sender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/util/http_sender.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/util/http_sender.cpp -o CMakeFiles/cossdk.dir/util/http_sender.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/util/http_sender.cpp -o CMakeFiles/cossdk.dir/util/http_sender.cpp.s
 
 src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o.requires:
 
@@ -590,16 +590,16 @@ src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/cossdk.dir/util/sha1.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/util/sha1.cpp.o: ../src/util/sha1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/cossdk.dir/util/sha1.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/sha1.cpp.o -c /home/yangxj/桌面/CosPic/src/util/sha1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/cossdk.dir/util/sha1.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/sha1.cpp.o -c /home/yangxj/Program/New/CosPic/src/util/sha1.cpp
 
 src/CMakeFiles/cossdk.dir/util/sha1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/util/sha1.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/util/sha1.cpp > CMakeFiles/cossdk.dir/util/sha1.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/util/sha1.cpp > CMakeFiles/cossdk.dir/util/sha1.cpp.i
 
 src/CMakeFiles/cossdk.dir/util/sha1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/util/sha1.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/util/sha1.cpp -o CMakeFiles/cossdk.dir/util/sha1.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/util/sha1.cpp -o CMakeFiles/cossdk.dir/util/sha1.cpp.s
 
 src/CMakeFiles/cossdk.dir/util/sha1.cpp.o.requires:
 
@@ -614,16 +614,16 @@ src/CMakeFiles/cossdk.dir/util/sha1.cpp.o.provides.build: src/CMakeFiles/cossdk.
 
 src/CMakeFiles/cossdk.dir/util/string_util.cpp.o: src/CMakeFiles/cossdk.dir/flags.make
 src/CMakeFiles/cossdk.dir/util/string_util.cpp.o: ../src/util/string_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/cossdk.dir/util/string_util.cpp.o"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/string_util.cpp.o -c /home/yangxj/桌面/CosPic/src/util/string_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/cossdk.dir/util/string_util.cpp.o"
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cossdk.dir/util/string_util.cpp.o -c /home/yangxj/Program/New/CosPic/src/util/string_util.cpp
 
 src/CMakeFiles/cossdk.dir/util/string_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cossdk.dir/util/string_util.cpp.i"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/桌面/CosPic/src/util/string_util.cpp > CMakeFiles/cossdk.dir/util/string_util.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxj/Program/New/CosPic/src/util/string_util.cpp > CMakeFiles/cossdk.dir/util/string_util.cpp.i
 
 src/CMakeFiles/cossdk.dir/util/string_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cossdk.dir/util/string_util.cpp.s"
-	cd /home/yangxj/桌面/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/桌面/CosPic/src/util/string_util.cpp -o CMakeFiles/cossdk.dir/util/string_util.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxj/Program/New/CosPic/src/util/string_util.cpp -o CMakeFiles/cossdk.dir/util/string_util.cpp.s
 
 src/CMakeFiles/cossdk.dir/util/string_util.cpp.o.requires:
 
@@ -692,9 +692,9 @@ lib/libcossdk.a: src/CMakeFiles/cossdk.dir/util/sha1.cpp.o
 lib/libcossdk.a: src/CMakeFiles/cossdk.dir/util/string_util.cpp.o
 lib/libcossdk.a: src/CMakeFiles/cossdk.dir/build.make
 lib/libcossdk.a: src/CMakeFiles/cossdk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yangxj/桌面/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library ../lib/libcossdk.a"
-	cd /home/yangxj/桌面/CosPic/build/src && $(CMAKE_COMMAND) -P CMakeFiles/cossdk.dir/cmake_clean_target.cmake
-	cd /home/yangxj/桌面/CosPic/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cossdk.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yangxj/Program/New/CosPic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library ../lib/libcossdk.a"
+	cd /home/yangxj/Program/New/CosPic/build/src && $(CMAKE_COMMAND) -P CMakeFiles/cossdk.dir/cmake_clean_target.cmake
+	cd /home/yangxj/Program/New/CosPic/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cossdk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/cossdk.dir/build: lib/libcossdk.a
@@ -729,10 +729,10 @@ src/CMakeFiles/cossdk.dir/requires: src/CMakeFiles/cossdk.dir/util/string_util.c
 .PHONY : src/CMakeFiles/cossdk.dir/requires
 
 src/CMakeFiles/cossdk.dir/clean:
-	cd /home/yangxj/桌面/CosPic/build/src && $(CMAKE_COMMAND) -P CMakeFiles/cossdk.dir/cmake_clean.cmake
+	cd /home/yangxj/Program/New/CosPic/build/src && $(CMAKE_COMMAND) -P CMakeFiles/cossdk.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/cossdk.dir/clean
 
 src/CMakeFiles/cossdk.dir/depend:
-	cd /home/yangxj/桌面/CosPic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yangxj/桌面/CosPic /home/yangxj/桌面/CosPic/src /home/yangxj/桌面/CosPic/build /home/yangxj/桌面/CosPic/build/src /home/yangxj/桌面/CosPic/build/src/CMakeFiles/cossdk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yangxj/Program/New/CosPic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yangxj/Program/New/CosPic /home/yangxj/Program/New/CosPic/src /home/yangxj/Program/New/CosPic/build /home/yangxj/Program/New/CosPic/build/src /home/yangxj/Program/New/CosPic/build/src/CMakeFiles/cossdk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/cossdk.dir/depend
 

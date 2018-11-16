@@ -1,4 +1,4 @@
-# Install script for directory: /home/yangxj/桌面/CosPic/src
+# Install script for directory: /home/yangxj/Program/New/CosPic/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

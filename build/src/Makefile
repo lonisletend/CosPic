@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yangxj/桌面/CosPic
+CMAKE_SOURCE_DIR = /home/yangxj/Program/New/CosPic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yangxj/桌面/CosPic/build
+CMAKE_BINARY_DIR = /home/yangxj/Program/New/CosPic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,14 +83,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yangxj/桌面/CosPic/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/桌面/CosPic/build/CMakeFiles /home/yangxj/桌面/CosPic/build/src/CMakeFiles/progress.marks
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/桌面/CosPic/build/CMakeFiles 0
+	cd /home/yangxj/Program/New/CosPic/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/Program/New/CosPic/build/CMakeFiles /home/yangxj/Program/New/CosPic/build/src/CMakeFiles/progress.marks
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxj/Program/New/CosPic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -100,22 +100,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yangxj/桌面/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yangxj/Program/New/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/cossdk.dir/rule:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cossdk.dir/rule
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cossdk.dir/rule
 .PHONY : src/CMakeFiles/cossdk.dir/rule
 
 # Convenience name for target.
@@ -125,7 +125,7 @@ cossdk: src/CMakeFiles/cossdk.dir/rule
 
 # fast build rule for target.
 cossdk/fast:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/build
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/build
 .PHONY : cossdk/fast
 
 cos_api.o: cos_api.cpp.o
@@ -134,7 +134,7 @@ cos_api.o: cos_api.cpp.o
 
 # target to build an object file
 cos_api.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_api.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_api.cpp.o
 .PHONY : cos_api.cpp.o
 
 cos_api.i: cos_api.cpp.i
@@ -143,7 +143,7 @@ cos_api.i: cos_api.cpp.i
 
 # target to preprocess a source file
 cos_api.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_api.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_api.cpp.i
 .PHONY : cos_api.cpp.i
 
 cos_api.s: cos_api.cpp.s
@@ -152,7 +152,7 @@ cos_api.s: cos_api.cpp.s
 
 # target to generate assembly for a file
 cos_api.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_api.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_api.cpp.s
 .PHONY : cos_api.cpp.s
 
 cos_config.o: cos_config.cpp.o
@@ -161,7 +161,7 @@ cos_config.o: cos_config.cpp.o
 
 # target to build an object file
 cos_config.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_config.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_config.cpp.o
 .PHONY : cos_config.cpp.o
 
 cos_config.i: cos_config.cpp.i
@@ -170,7 +170,7 @@ cos_config.i: cos_config.cpp.i
 
 # target to preprocess a source file
 cos_config.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_config.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_config.cpp.i
 .PHONY : cos_config.cpp.i
 
 cos_config.s: cos_config.cpp.s
@@ -179,7 +179,7 @@ cos_config.s: cos_config.cpp.s
 
 # target to generate assembly for a file
 cos_config.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_config.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_config.cpp.s
 .PHONY : cos_config.cpp.s
 
 cos_sys_config.o: cos_sys_config.cpp.o
@@ -188,7 +188,7 @@ cos_sys_config.o: cos_sys_config.cpp.o
 
 # target to build an object file
 cos_sys_config.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.o
 .PHONY : cos_sys_config.cpp.o
 
 cos_sys_config.i: cos_sys_config.cpp.i
@@ -197,7 +197,7 @@ cos_sys_config.i: cos_sys_config.cpp.i
 
 # target to preprocess a source file
 cos_sys_config.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.i
 .PHONY : cos_sys_config.cpp.i
 
 cos_sys_config.s: cos_sys_config.cpp.s
@@ -206,7 +206,7 @@ cos_sys_config.s: cos_sys_config.cpp.s
 
 # target to generate assembly for a file
 cos_sys_config.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/cos_sys_config.cpp.s
 .PHONY : cos_sys_config.cpp.s
 
 op/base_op.o: op/base_op.cpp.o
@@ -215,7 +215,7 @@ op/base_op.o: op/base_op.cpp.o
 
 # target to build an object file
 op/base_op.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/base_op.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/base_op.cpp.o
 .PHONY : op/base_op.cpp.o
 
 op/base_op.i: op/base_op.cpp.i
@@ -224,7 +224,7 @@ op/base_op.i: op/base_op.cpp.i
 
 # target to preprocess a source file
 op/base_op.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/base_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/base_op.cpp.i
 .PHONY : op/base_op.cpp.i
 
 op/base_op.s: op/base_op.cpp.s
@@ -233,7 +233,7 @@ op/base_op.s: op/base_op.cpp.s
 
 # target to generate assembly for a file
 op/base_op.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/base_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/base_op.cpp.s
 .PHONY : op/base_op.cpp.s
 
 op/bucket_op.o: op/bucket_op.cpp.o
@@ -242,7 +242,7 @@ op/bucket_op.o: op/bucket_op.cpp.o
 
 # target to build an object file
 op/bucket_op.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.o
 .PHONY : op/bucket_op.cpp.o
 
 op/bucket_op.i: op/bucket_op.cpp.i
@@ -251,7 +251,7 @@ op/bucket_op.i: op/bucket_op.cpp.i
 
 # target to preprocess a source file
 op/bucket_op.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.i
 .PHONY : op/bucket_op.cpp.i
 
 op/bucket_op.s: op/bucket_op.cpp.s
@@ -260,7 +260,7 @@ op/bucket_op.s: op/bucket_op.cpp.s
 
 # target to generate assembly for a file
 op/bucket_op.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/bucket_op.cpp.s
 .PHONY : op/bucket_op.cpp.s
 
 op/cos_result.o: op/cos_result.cpp.o
@@ -269,7 +269,7 @@ op/cos_result.o: op/cos_result.cpp.o
 
 # target to build an object file
 op/cos_result.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/cos_result.cpp.o
 .PHONY : op/cos_result.cpp.o
 
 op/cos_result.i: op/cos_result.cpp.i
@@ -278,7 +278,7 @@ op/cos_result.i: op/cos_result.cpp.i
 
 # target to preprocess a source file
 op/cos_result.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/cos_result.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/cos_result.cpp.i
 .PHONY : op/cos_result.cpp.i
 
 op/cos_result.s: op/cos_result.cpp.s
@@ -287,7 +287,7 @@ op/cos_result.s: op/cos_result.cpp.s
 
 # target to generate assembly for a file
 op/cos_result.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/cos_result.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/cos_result.cpp.s
 .PHONY : op/cos_result.cpp.s
 
 op/file_copy_task.o: op/file_copy_task.cpp.o
@@ -296,7 +296,7 @@ op/file_copy_task.o: op/file_copy_task.cpp.o
 
 # target to build an object file
 op/file_copy_task.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.o
 .PHONY : op/file_copy_task.cpp.o
 
 op/file_copy_task.i: op/file_copy_task.cpp.i
@@ -305,7 +305,7 @@ op/file_copy_task.i: op/file_copy_task.cpp.i
 
 # target to preprocess a source file
 op/file_copy_task.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.i
 .PHONY : op/file_copy_task.cpp.i
 
 op/file_copy_task.s: op/file_copy_task.cpp.s
@@ -314,7 +314,7 @@ op/file_copy_task.s: op/file_copy_task.cpp.s
 
 # target to generate assembly for a file
 op/file_copy_task.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_copy_task.cpp.s
 .PHONY : op/file_copy_task.cpp.s
 
 op/file_download_task.o: op/file_download_task.cpp.o
@@ -323,7 +323,7 @@ op/file_download_task.o: op/file_download_task.cpp.o
 
 # target to build an object file
 op/file_download_task.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.o
 .PHONY : op/file_download_task.cpp.o
 
 op/file_download_task.i: op/file_download_task.cpp.i
@@ -332,7 +332,7 @@ op/file_download_task.i: op/file_download_task.cpp.i
 
 # target to preprocess a source file
 op/file_download_task.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.i
 .PHONY : op/file_download_task.cpp.i
 
 op/file_download_task.s: op/file_download_task.cpp.s
@@ -341,7 +341,7 @@ op/file_download_task.s: op/file_download_task.cpp.s
 
 # target to generate assembly for a file
 op/file_download_task.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_download_task.cpp.s
 .PHONY : op/file_download_task.cpp.s
 
 op/file_upload_task.o: op/file_upload_task.cpp.o
@@ -350,7 +350,7 @@ op/file_upload_task.o: op/file_upload_task.cpp.o
 
 # target to build an object file
 op/file_upload_task.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.o
 .PHONY : op/file_upload_task.cpp.o
 
 op/file_upload_task.i: op/file_upload_task.cpp.i
@@ -359,7 +359,7 @@ op/file_upload_task.i: op/file_upload_task.cpp.i
 
 # target to preprocess a source file
 op/file_upload_task.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.i
 .PHONY : op/file_upload_task.cpp.i
 
 op/file_upload_task.s: op/file_upload_task.cpp.s
@@ -368,7 +368,7 @@ op/file_upload_task.s: op/file_upload_task.cpp.s
 
 # target to generate assembly for a file
 op/file_upload_task.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/file_upload_task.cpp.s
 .PHONY : op/file_upload_task.cpp.s
 
 op/object_op.o: op/object_op.cpp.o
@@ -377,7 +377,7 @@ op/object_op.o: op/object_op.cpp.o
 
 # target to build an object file
 op/object_op.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/object_op.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/object_op.cpp.o
 .PHONY : op/object_op.cpp.o
 
 op/object_op.i: op/object_op.cpp.i
@@ -386,7 +386,7 @@ op/object_op.i: op/object_op.cpp.i
 
 # target to preprocess a source file
 op/object_op.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/object_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/object_op.cpp.i
 .PHONY : op/object_op.cpp.i
 
 op/object_op.s: op/object_op.cpp.s
@@ -395,7 +395,7 @@ op/object_op.s: op/object_op.cpp.s
 
 # target to generate assembly for a file
 op/object_op.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/object_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/object_op.cpp.s
 .PHONY : op/object_op.cpp.s
 
 op/service_op.o: op/service_op.cpp.o
@@ -404,7 +404,7 @@ op/service_op.o: op/service_op.cpp.o
 
 # target to build an object file
 op/service_op.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/service_op.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/service_op.cpp.o
 .PHONY : op/service_op.cpp.o
 
 op/service_op.i: op/service_op.cpp.i
@@ -413,7 +413,7 @@ op/service_op.i: op/service_op.cpp.i
 
 # target to preprocess a source file
 op/service_op.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/service_op.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/service_op.cpp.i
 .PHONY : op/service_op.cpp.i
 
 op/service_op.s: op/service_op.cpp.s
@@ -422,7 +422,7 @@ op/service_op.s: op/service_op.cpp.s
 
 # target to generate assembly for a file
 op/service_op.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/service_op.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/op/service_op.cpp.s
 .PHONY : op/service_op.cpp.s
 
 request/base_req.o: request/base_req.cpp.o
@@ -431,7 +431,7 @@ request/base_req.o: request/base_req.cpp.o
 
 # target to build an object file
 request/base_req.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/base_req.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/base_req.cpp.o
 .PHONY : request/base_req.cpp.o
 
 request/base_req.i: request/base_req.cpp.i
@@ -440,7 +440,7 @@ request/base_req.i: request/base_req.cpp.i
 
 # target to preprocess a source file
 request/base_req.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/base_req.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/base_req.cpp.i
 .PHONY : request/base_req.cpp.i
 
 request/base_req.s: request/base_req.cpp.s
@@ -449,7 +449,7 @@ request/base_req.s: request/base_req.cpp.s
 
 # target to generate assembly for a file
 request/base_req.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/base_req.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/base_req.cpp.s
 .PHONY : request/base_req.cpp.s
 
 request/bucket_req.o: request/bucket_req.cpp.o
@@ -458,7 +458,7 @@ request/bucket_req.o: request/bucket_req.cpp.o
 
 # target to build an object file
 request/bucket_req.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.o
 .PHONY : request/bucket_req.cpp.o
 
 request/bucket_req.i: request/bucket_req.cpp.i
@@ -467,7 +467,7 @@ request/bucket_req.i: request/bucket_req.cpp.i
 
 # target to preprocess a source file
 request/bucket_req.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.i
 .PHONY : request/bucket_req.cpp.i
 
 request/bucket_req.s: request/bucket_req.cpp.s
@@ -476,7 +476,7 @@ request/bucket_req.s: request/bucket_req.cpp.s
 
 # target to generate assembly for a file
 request/bucket_req.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/bucket_req.cpp.s
 .PHONY : request/bucket_req.cpp.s
 
 request/object_req.o: request/object_req.cpp.o
@@ -485,7 +485,7 @@ request/object_req.o: request/object_req.cpp.o
 
 # target to build an object file
 request/object_req.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/object_req.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/object_req.cpp.o
 .PHONY : request/object_req.cpp.o
 
 request/object_req.i: request/object_req.cpp.i
@@ -494,7 +494,7 @@ request/object_req.i: request/object_req.cpp.i
 
 # target to preprocess a source file
 request/object_req.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/object_req.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/object_req.cpp.i
 .PHONY : request/object_req.cpp.i
 
 request/object_req.s: request/object_req.cpp.s
@@ -503,7 +503,7 @@ request/object_req.s: request/object_req.cpp.s
 
 # target to generate assembly for a file
 request/object_req.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/object_req.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/request/object_req.cpp.s
 .PHONY : request/object_req.cpp.s
 
 response/base_resp.o: response/base_resp.cpp.o
@@ -512,7 +512,7 @@ response/base_resp.o: response/base_resp.cpp.o
 
 # target to build an object file
 response/base_resp.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/base_resp.cpp.o
 .PHONY : response/base_resp.cpp.o
 
 response/base_resp.i: response/base_resp.cpp.i
@@ -521,7 +521,7 @@ response/base_resp.i: response/base_resp.cpp.i
 
 # target to preprocess a source file
 response/base_resp.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/base_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/base_resp.cpp.i
 .PHONY : response/base_resp.cpp.i
 
 response/base_resp.s: response/base_resp.cpp.s
@@ -530,7 +530,7 @@ response/base_resp.s: response/base_resp.cpp.s
 
 # target to generate assembly for a file
 response/base_resp.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/base_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/base_resp.cpp.s
 .PHONY : response/base_resp.cpp.s
 
 response/bucket_resp.o: response/bucket_resp.cpp.o
@@ -539,7 +539,7 @@ response/bucket_resp.o: response/bucket_resp.cpp.o
 
 # target to build an object file
 response/bucket_resp.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.o
 .PHONY : response/bucket_resp.cpp.o
 
 response/bucket_resp.i: response/bucket_resp.cpp.i
@@ -548,7 +548,7 @@ response/bucket_resp.i: response/bucket_resp.cpp.i
 
 # target to preprocess a source file
 response/bucket_resp.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.i
 .PHONY : response/bucket_resp.cpp.i
 
 response/bucket_resp.s: response/bucket_resp.cpp.s
@@ -557,7 +557,7 @@ response/bucket_resp.s: response/bucket_resp.cpp.s
 
 # target to generate assembly for a file
 response/bucket_resp.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/bucket_resp.cpp.s
 .PHONY : response/bucket_resp.cpp.s
 
 response/object_resp.o: response/object_resp.cpp.o
@@ -566,7 +566,7 @@ response/object_resp.o: response/object_resp.cpp.o
 
 # target to build an object file
 response/object_resp.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/object_resp.cpp.o
 .PHONY : response/object_resp.cpp.o
 
 response/object_resp.i: response/object_resp.cpp.i
@@ -575,7 +575,7 @@ response/object_resp.i: response/object_resp.cpp.i
 
 # target to preprocess a source file
 response/object_resp.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/object_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/object_resp.cpp.i
 .PHONY : response/object_resp.cpp.i
 
 response/object_resp.s: response/object_resp.cpp.s
@@ -584,7 +584,7 @@ response/object_resp.s: response/object_resp.cpp.s
 
 # target to generate assembly for a file
 response/object_resp.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/object_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/object_resp.cpp.s
 .PHONY : response/object_resp.cpp.s
 
 response/service_resp.o: response/service_resp.cpp.o
@@ -593,7 +593,7 @@ response/service_resp.o: response/service_resp.cpp.o
 
 # target to build an object file
 response/service_resp.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/service_resp.cpp.o
 .PHONY : response/service_resp.cpp.o
 
 response/service_resp.i: response/service_resp.cpp.i
@@ -602,7 +602,7 @@ response/service_resp.i: response/service_resp.cpp.i
 
 # target to preprocess a source file
 response/service_resp.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/service_resp.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/service_resp.cpp.i
 .PHONY : response/service_resp.cpp.i
 
 response/service_resp.s: response/service_resp.cpp.s
@@ -611,7 +611,7 @@ response/service_resp.s: response/service_resp.cpp.s
 
 # target to generate assembly for a file
 response/service_resp.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/service_resp.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/response/service_resp.cpp.s
 .PHONY : response/service_resp.cpp.s
 
 util/auth_tool.o: util/auth_tool.cpp.o
@@ -620,7 +620,7 @@ util/auth_tool.o: util/auth_tool.cpp.o
 
 # target to build an object file
 util/auth_tool.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.o
 .PHONY : util/auth_tool.cpp.o
 
 util/auth_tool.i: util/auth_tool.cpp.i
@@ -629,7 +629,7 @@ util/auth_tool.i: util/auth_tool.cpp.i
 
 # target to preprocess a source file
 util/auth_tool.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.i
 .PHONY : util/auth_tool.cpp.i
 
 util/auth_tool.s: util/auth_tool.cpp.s
@@ -638,7 +638,7 @@ util/auth_tool.s: util/auth_tool.cpp.s
 
 # target to generate assembly for a file
 util/auth_tool.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/auth_tool.cpp.s
 .PHONY : util/auth_tool.cpp.s
 
 util/codec_util.o: util/codec_util.cpp.o
@@ -647,7 +647,7 @@ util/codec_util.o: util/codec_util.cpp.o
 
 # target to build an object file
 util/codec_util.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/codec_util.cpp.o
 .PHONY : util/codec_util.cpp.o
 
 util/codec_util.i: util/codec_util.cpp.i
@@ -656,7 +656,7 @@ util/codec_util.i: util/codec_util.cpp.i
 
 # target to preprocess a source file
 util/codec_util.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/codec_util.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/codec_util.cpp.i
 .PHONY : util/codec_util.cpp.i
 
 util/codec_util.s: util/codec_util.cpp.s
@@ -665,7 +665,7 @@ util/codec_util.s: util/codec_util.cpp.s
 
 # target to generate assembly for a file
 util/codec_util.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/codec_util.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/codec_util.cpp.s
 .PHONY : util/codec_util.cpp.s
 
 util/file_util.o: util/file_util.cpp.o
@@ -674,7 +674,7 @@ util/file_util.o: util/file_util.cpp.o
 
 # target to build an object file
 util/file_util.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/file_util.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/file_util.cpp.o
 .PHONY : util/file_util.cpp.o
 
 util/file_util.i: util/file_util.cpp.i
@@ -683,7 +683,7 @@ util/file_util.i: util/file_util.cpp.i
 
 # target to preprocess a source file
 util/file_util.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/file_util.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/file_util.cpp.i
 .PHONY : util/file_util.cpp.i
 
 util/file_util.s: util/file_util.cpp.s
@@ -692,7 +692,7 @@ util/file_util.s: util/file_util.cpp.s
 
 # target to generate assembly for a file
 util/file_util.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/file_util.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/file_util.cpp.s
 .PHONY : util/file_util.cpp.s
 
 util/http_sender.o: util/http_sender.cpp.o
@@ -701,7 +701,7 @@ util/http_sender.o: util/http_sender.cpp.o
 
 # target to build an object file
 util/http_sender.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/http_sender.cpp.o
 .PHONY : util/http_sender.cpp.o
 
 util/http_sender.i: util/http_sender.cpp.i
@@ -710,7 +710,7 @@ util/http_sender.i: util/http_sender.cpp.i
 
 # target to preprocess a source file
 util/http_sender.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/http_sender.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/http_sender.cpp.i
 .PHONY : util/http_sender.cpp.i
 
 util/http_sender.s: util/http_sender.cpp.s
@@ -719,7 +719,7 @@ util/http_sender.s: util/http_sender.cpp.s
 
 # target to generate assembly for a file
 util/http_sender.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/http_sender.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/http_sender.cpp.s
 .PHONY : util/http_sender.cpp.s
 
 util/sha1.o: util/sha1.cpp.o
@@ -728,7 +728,7 @@ util/sha1.o: util/sha1.cpp.o
 
 # target to build an object file
 util/sha1.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/sha1.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/sha1.cpp.o
 .PHONY : util/sha1.cpp.o
 
 util/sha1.i: util/sha1.cpp.i
@@ -737,7 +737,7 @@ util/sha1.i: util/sha1.cpp.i
 
 # target to preprocess a source file
 util/sha1.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/sha1.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/sha1.cpp.i
 .PHONY : util/sha1.cpp.i
 
 util/sha1.s: util/sha1.cpp.s
@@ -746,7 +746,7 @@ util/sha1.s: util/sha1.cpp.s
 
 # target to generate assembly for a file
 util/sha1.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/sha1.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/sha1.cpp.s
 .PHONY : util/sha1.cpp.s
 
 util/string_util.o: util/string_util.cpp.o
@@ -755,7 +755,7 @@ util/string_util.o: util/string_util.cpp.o
 
 # target to build an object file
 util/string_util.cpp.o:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/string_util.cpp.o
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/string_util.cpp.o
 .PHONY : util/string_util.cpp.o
 
 util/string_util.i: util/string_util.cpp.i
@@ -764,7 +764,7 @@ util/string_util.i: util/string_util.cpp.i
 
 # target to preprocess a source file
 util/string_util.cpp.i:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/string_util.cpp.i
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/string_util.cpp.i
 .PHONY : util/string_util.cpp.i
 
 util/string_util.s: util/string_util.cpp.s
@@ -773,7 +773,7 @@ util/string_util.s: util/string_util.cpp.s
 
 # target to generate assembly for a file
 util/string_util.cpp.s:
-	cd /home/yangxj/桌面/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/string_util.cpp.s
+	cd /home/yangxj/Program/New/CosPic/build && $(MAKE) -f src/CMakeFiles/cossdk.dir/build.make src/CMakeFiles/cossdk.dir/util/string_util.cpp.s
 .PHONY : util/string_util.cpp.s
 
 # Help Target
@@ -868,6 +868,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yangxj/桌面/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yangxj/Program/New/CosPic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

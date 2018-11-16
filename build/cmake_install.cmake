@@ -1,4 +1,4 @@
-# Install script for directory: /home/yangxj/桌面/CosPic
+# Install script for directory: /home/yangxj/Program/New/CosPic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yangxj/桌面/CosPic/build/src/cmake_install.cmake")
-  include("/home/yangxj/桌面/CosPic/build/cospic/cmake_install.cmake")
+  include("/home/yangxj/Program/New/CosPic/build/src/cmake_install.cmake")
+  include("/home/yangxj/Program/New/CosPic/build/cospic/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yangxj/桌面/CosPic/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yangxj/Program/New/CosPic/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

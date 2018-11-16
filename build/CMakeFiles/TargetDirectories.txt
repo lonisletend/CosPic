@@ -1,8 +1,8 @@
-/home/yangxj/桌面/CosPic/build/CMakeFiles/rebuild_cache.dir
-/home/yangxj/桌面/CosPic/build/CMakeFiles/edit_cache.dir
-/home/yangxj/桌面/CosPic/build/src/CMakeFiles/edit_cache.dir
-/home/yangxj/桌面/CosPic/build/src/CMakeFiles/rebuild_cache.dir
-/home/yangxj/桌面/CosPic/build/src/CMakeFiles/cossdk.dir
-/home/yangxj/桌面/CosPic/build/cospic/CMakeFiles/rebuild_cache.dir
-/home/yangxj/桌面/CosPic/build/cospic/CMakeFiles/edit_cache.dir
-/home/yangxj/桌面/CosPic/build/cospic/CMakeFiles/cospic.dir
+/home/yangxj/Program/New/CosPic/build/CMakeFiles/rebuild_cache.dir
+/home/yangxj/Program/New/CosPic/build/CMakeFiles/edit_cache.dir
+/home/yangxj/Program/New/CosPic/build/src/CMakeFiles/edit_cache.dir
+/home/yangxj/Program/New/CosPic/build/src/CMakeFiles/rebuild_cache.dir
+/home/yangxj/Program/New/CosPic/build/src/CMakeFiles/cossdk.dir
+/home/yangxj/Program/New/CosPic/build/cospic/CMakeFiles/rebuild_cache.dir
+/home/yangxj/Program/New/CosPic/build/cospic/CMakeFiles/edit_cache.dir
+/home/yangxj/Program/New/CosPic/build/cospic/CMakeFiles/cospic.dir
